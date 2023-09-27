@@ -9,7 +9,7 @@ export default function Logo(){
                 alt="logo"
                 className='logo-img'
             />
-            <p><b>Alura</b> Books</p>
+            <p><b>Alura</b>Books</p>
         </div>
     )
 }
