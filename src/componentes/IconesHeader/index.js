@@ -18,7 +18,7 @@ export default function IconesHeader() {
     return (
         <Icones>
             { icones.map((icone) => (
-                <Icone><img src={icone} alt="" /></Icone>
+                <Icone key={icone}><img src={icone} alt="" /></Icone>
             ))}
         </Icones>
     )
